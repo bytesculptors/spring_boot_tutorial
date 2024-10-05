@@ -6,8 +6,11 @@ import com.kirito.server.book.repository.BookRepository;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.kirito.server.book.model.Book;
 
+@Service
 public class BookService {
 
     @Autowired
